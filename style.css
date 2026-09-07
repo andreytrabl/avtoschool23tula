@@ -438,8 +438,10 @@ input,select{font-family:inherit;}
 .tariff-pricing .tariff-tag{margin-bottom:0;}
 .tariff-price-old{
   font-family:var(--font-mono);font-weight:600;font-size:15px;color:#7A7A7E;
-  text-decoration:line-through;text-decoration-color:var(--red);text-decoration-thickness:2px;
   margin-top:-4px;
+}
+.tariff-price-old-value{
+  text-decoration:line-through;text-decoration-color:var(--red);text-decoration-thickness:2px;
 }
 .tariff-note{color:#FF6A6E;font-size:12.5px;font-weight:600;}
 .tariff-list{margin:16px 0 20px;display:flex;flex-direction:column;gap:9px;flex:1;}
@@ -679,6 +681,10 @@ input,select{font-family:inherit;}
   width:100%;max-width:380px;background:var(--asphalt-2);border:1px solid var(--line-dark);
   border-radius:var(--radius-l);overflow:hidden;box-shadow:0 30px 60px -30px rgba(0,0,0,.65);
 }
+.online-phone-img{
+  width:100%;max-width:320px;height:auto;display:block;
+  filter:drop-shadow(0 30px 60px rgba(0,0,0,.65));
+}
 .browser-mock-top{display:flex;gap:6px;padding:14px 16px;border-bottom:1px solid var(--line-dark);}
 .browser-mock-top span{width:9px;height:9px;border-radius:50%;background:var(--line-dark);}
 .browser-mock-body{padding:34px 26px 36px;display:flex;flex-direction:column;align-items:center;gap:30px;}
@@ -739,7 +745,7 @@ input,select{font-family:inherit;}
 .footer-copy{color:#9C9C9F;font-size:13px;line-height:1.5;}
 .footer h4{font-family:var(--font-display);font-weight:800;text-transform:uppercase;font-size:13px;letter-spacing:.04em;color:#8B8B8E;margin:0 0 12px;}
 .footer p{color:#D3D3D6;font-size:13.5px;line-height:1.7;margin:0;}
-.social-row--footer{display:flex;flex-direction:column;align-items:flex-start;gap:10px;}
+.social-row--footer{display:flex;flex-direction:row;align-items:center;gap:14px;}
 .social-row--footer a{color:#D3D3D6;font-size:13.5px;}
 .footer-legal{
   text-align:center;color:#6E6E71;font-size:11.5px;margin:36px 0 0;
